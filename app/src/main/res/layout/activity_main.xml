@@ -38,23 +38,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Numero"
-                android:inputType="number"
+                android:inputType="text"
                 android:backgroundTint="@color/white"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+        <Button
+            android:id="@+id/btAdicionaContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar Contato"
+            android:layout_gravity="center"/>
+        <Button
         android:id="@+id/btnLista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lista"
         android:layout_gravity="center"/>
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btAdicionaContato"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            app:srcCompat="@drawable/ic_baseline_add_24" />
 
     </LinearLayout>
 

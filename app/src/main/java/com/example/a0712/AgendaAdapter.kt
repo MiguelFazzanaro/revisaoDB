@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class AgendaAdapter (
-    var listaAgenda: ArrayList<Agenda>
+    var listaAgenda: List<Agenda>
 ): RecyclerView.Adapter<AgendaAdapter.AgendaViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AgendaAdapter.AgendaViewHolder {

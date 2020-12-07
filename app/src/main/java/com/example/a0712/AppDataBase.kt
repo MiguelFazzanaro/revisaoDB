@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase
 @Database(entities = [Agenda::class], version = 1)
 abstract class AppDataBase: RoomDatabase() {
 
-    abstract fun agendaDAO(): AgendaDAO
+    abstract fun agendaDAO() : AgendaDAO
 
     companion object {
         @Volatile
